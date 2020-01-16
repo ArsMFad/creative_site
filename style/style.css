@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	font-family: 'Overpass', sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 1080px;
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 1080px;
+
+}
+
+.menu_up {
+	display: flex;
+	width: 100%;
+	height: 150px;
+}
+
+.menu_up_photo {
+	margin-top: 20px;
+	display: block;
+	width: 168px;
+	height: 125px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 168px 125px;
+}
+
+.menu_up_els {
+	display: flex;
+	width: 70%;
+	height: 150px;
+	margin: auto;
+}
+
+.menu_up_el {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	position: relative;
+	height: 158px;
+	width: 17%;
+}
+
+.menu_up_link {
+	color: #EEEEEE;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 25px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.menu_up_indicator {
+	display: table-cell;
+	height: 10px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	transition: 0.3s;
+	margin: auto;
+	text-align: center;
+}
+
+.menu_up_el:hover .menu_up_indicator{
+	background-color: #4070FF;
+}
+
+.menu_up_icons_els {
+	width: 20%;
+	height: 150px;
+	margin: auto;
+	display: flex;
+}
+
+
