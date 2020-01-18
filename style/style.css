@@ -174,7 +174,7 @@ main {
 .w_block {
 	background-color: #11749E;
 	width: 100%;
-	height: 750px;
+	height: 1080px;
 }
 
 .h2_wb_block {
@@ -187,3 +187,68 @@ main {
 	margin: 0;
 }
 
+
+.feature_w_blocks {
+	margin: auto;
+	display: flex;
+	width: 80%;
+	height: 350px;
+	color: red;
+	margin-top: 425px;
+}
+
+.feature_w_block {
+	width: 300px;
+	height: 350px;
+	margin: auto;
+}
+
+.icon_feature_w_block {
+	border: 0px solid #222222;
+	background-color: #CF7B56;
+	border-radius: 50%;
+	width: 175px;
+	height: 175px;
+	background-size: 112px 112px;
+	background-repeat: no-repeat;
+	background-position: 37px 27px;
+	margin: auto;
+	filter: invert(1);
+}
+
+.icon_feature_one {
+	background-image: url(../img/feat1.png);
+}
+
+.icon_feature_two {
+	background-image: url(../img/feat2.png);
+	background-size: 150px 150px;
+	background-position: 10px 10px;	
+}
+
+.icon_feature_three {
+	background-image: url(../img/feat3.png);
+	background-position: 30px 30px;
+}
+
+.icon_feature_four {
+	background-image: url(../img/feat4.png);
+	background-size: 125px 125px;
+	background-position: 27px 25px;
+}
+
+.h3_feature_w_block {
+	text-align: center;
+	margin: auto;
+	color: #EEEEEE;
+	font-size: 30px;
+	margin-top: 25px;
+}
+
+.p_feature_w_block {
+	text-align: center;
+	margin: auto;
+	color: #EEEEEE;
+	font-size: 22px;
+	margin-top: 25px;
+}
