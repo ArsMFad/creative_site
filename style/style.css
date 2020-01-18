@@ -13,6 +13,7 @@ header {
 	background-image: url(../img/header.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 1080px;
+	margin: 0;
 }
 
 .menu_up {
@@ -111,4 +112,78 @@ header {
 	transition: 0.5s;
 }
 
+.h1_up {
+	color: #EEEEEE;
+	text-align: center;
+	font-size: 160px;
+	margin-top: 200px;
+}
+
+.scroll_down_up {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 250px;
+	margin: auto;
+}
+
+.h5_scroll_down_up {
+	text-align: center;
+	color: #EEEEEE;
+	font-size: 20px;
+}
+
+.btn_scroll_down_up {
+	margin: auto;
+	display: block;
+	width: 112px;
+	height: 112px;
+	border-radius: 50%;
+	border: 2px solid #EEEEEE;
+}
+
+i {
+    border: solid #EEEEEE;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.btn_arrow_scroll_down_up {
+	position: relative;
+	top: 25px;
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin: auto;
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+.btn_scroll_down_up:hover .btn_arrow_scroll_down_up {
+	transform: rotate(405deg);
+}
+
+
+main {
+	margin: 0;
+	width: 100%;
+	height: 15000px;
+}
+
+.w_block {
+	background-color: #11749E;
+	width: 100%;
+	height: 750px;
+}
+
+.h2_wb_block {
+	position: relative;
+	text-align: center;
+	top: 250px;
+	color: #EEEEEE;
+	font-size: 75px;
+	padding: 0;
+	margin: 0;
+}
 
