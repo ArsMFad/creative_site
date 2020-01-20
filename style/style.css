@@ -432,3 +432,45 @@ main {
 	background-image: url(../img/fourth_lets_blog.jpg);
 }
 
+.str_blocks {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	background-color: #11749E;
+}
+
+.str_block {
+	display: flex;
+	width: 670px;
+	height: 150px;
+	margin: auto;
+}
+
+.str_img {
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	filter: invert(1);
+	margin-right: 25px;
+}
+
+.str_p {
+	margin-top: -5px;
+	width: 570px;
+	height: 150px;
+	font-size: 22px;
+	color: #EEEEEE;
+}
+
+.str_img_one {
+	background-image: url(../img/feat1.png);
+}
+
+.str_img_two {
+	background-image: url(../img/feat2.png);
+	background-size: 150px 150px;
+	background-position: -35px -35px;
+}
+
+
