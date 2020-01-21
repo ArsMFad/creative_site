@@ -473,4 +473,71 @@ main {
 	background-position: -35px -35px;
 }
 
+.iphone_block {
+	display: flex;
+	width: 100%;
+	height: 1080px;
+	background-repeat: no-repeat;
+	background-image: url(../img/iphone_block.jpg);
+	background-size: 1920px 1080px;
+}
+
+.left_iphone_block{
+	margin: auto;
+	width: 500px;
+	height: 700px;
+}
+
+.right_iphone_block {
+	margin: auto;
+	width: 700px;
+	height: 700px;
+	background-image: url(../img/iphone.png);
+	background-size: 700px 700px;
+}
+
+.left_iphone_block_h4 {
+	color: #FFFFFF;
+	font-size: 35px;
+}
+
+.left_iphone_block_p {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.left_iphone_block_blocks {
+	margin-top: 75px;
+	width: 500px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.left_iphone_block_block {
+	margin: auto;
+	height: 60px;
+	background-color: #11749E;
+	margin-left: 0px;
+}
+
+.left_iphone_block_first {
+	width: 400px;
+}
+
+.left_iphone_block_second{
+	width: 450px;
+}
+
+.left_iphone_block_third {
+	width: 500px;
+}
+
+.left_iphone_block_h3 {
+	color: #FFFFFF;
+	font-size: 23px;
+	margin-top: 17px;
+	margin-left: 5px;
+}
 
