@@ -617,37 +617,35 @@ main {
 }
 
 .team_part_two {
-	background-image: url(../img/team_1.jpg);
+	background-image: url(../img/team_2.jpg);
 }
 
 .team_part_three {
-	background-image: url(../img/team_1.jpg);
+	background-image: url(../img/team_3.jpg);
 }
 
 .team_part_four {
-	background-image: url(../img/team_1.jpg);
+	background-image: url(../img/team_4.jpg);
 }
 
 .podpis {
 	background-color: white;
 	margin: auto;
-	text-align: center;
-	margin-top: 450px;
+	position: relative;
+	top: 450px;
 	width: 200px;
 	height: 80px;
-	
 }
 
 .podpis_h3 {
 	text-align: center;
-	margin: auto;
+	position: relative;
+	top: 10px;
 	color: #11749E;
-	font-size: 23px;
 }
 
 .podpis_h4 {
+	text-align: center;
+	position: relative;
 	color: #222222;
-	font-size: 20px;
 }
-
-
