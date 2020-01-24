@@ -174,7 +174,6 @@ i {
 main {
 	margin: 0;
 	width: 100%;
-	height: 15000px;
 }
 
 .w_block {
@@ -735,4 +734,34 @@ textarea::placeholder {
 	resize: none;
 }
 
+footer {
+	width: 100%;
+	height: 600px;
+}
 
+.map_footer {
+	width: 100%;
+	height: 540px;
+	background-image: url(../img/map.png);
+	background-size: 1920px 1080px;
+	background-position: 0px -350px;
+}
+
+.theend {
+	width: 100%;
+	height: 60px;
+	background-color: #222222;
+	text-align: center;
+}
+
+.madeby {
+	margin: 0;
+	position: relative;
+	top: 25px;
+	color: #FFFFFF;
+	transition: 0.7s;
+}
+
+.madeby:hover {
+	color: #222222;
+}
